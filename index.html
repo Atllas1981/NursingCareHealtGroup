@@ -141,7 +141,7 @@
             </div>
           </div>
           <div class="col-md-6 my-auto">
-            <div class="info-right info-content-right">
+            <div class="info-right">
               <h2>Nuestros servicios  24/7 </h2>
               <p style="text-align: justify;">Cuidado integral de pacientes en casa, acompañamiento de post-operatorios, cuidados paliativos,  monitoreo de signos vitales, entre otros.​</p>
                 <ul>
@@ -291,22 +291,11 @@ sr.reveal('#testimonial div', {
 });
 
 sr.reveal('.info-content-left', {
-  duration: 2000,
+  duration: 1000,
   origin: 'left',
   distance: '300px',
   viewFactor: 0.2
 });
-
-sr.reveal('.info-content-right', {
-  duration: 2000,
-  origin: 'right',
-  distance: '300px',
-  viewFactor: 0.2
-});
-
-
-
-
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
